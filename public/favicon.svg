@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="ember" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#c2452d"/>
+      <stop offset="50%" stop-color="#d4833c"/>
+      <stop offset="100%" stop-color="#f5c542"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4c0 0-16 14-16 32s10 24 16 24 16-6 16-24S32 4 32 4z" fill="url(#ember)" opacity="0.9"/>
+  <path d="M32 20c0 0-8 8-8 18s5 14 8 14 8-3 8-14-8-18-8-18z" fill="#151211" opacity="0.6"/>
+  <path d="M32 32c0 0-4 5-4 10s2 8 4 8 4-3 4-8-4-10-4-10z" fill="#f5c542" opacity="0.8"/>
+</svg>

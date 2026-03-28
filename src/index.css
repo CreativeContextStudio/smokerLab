@@ -1,0 +1,317 @@
+@import "tailwindcss";
+
+@theme {
+  --color-smoke-950: #0d0b0a;
+  --color-smoke-900: #151211;
+  --color-smoke-800: #1e1b19;
+  --color-smoke-700: #2a2520;
+  --color-smoke-600: #3d3530;
+  --color-smoke-500: #5c504a;
+  --color-smoke-400: #7a6e66;
+  --color-smoke-300: #9b918a;
+  --color-smoke-200: #c4bbb4;
+  --color-smoke-100: #ede8e3;
+  --color-smoke-50: #f7f4f1;
+
+  --color-ember-500: #d4833c;
+  --color-ember-400: #e09a56;
+  --color-ember-600: #b86a28;
+  --color-ember-700: #954f18;
+
+  --color-coal-500: #c2452d;
+  --color-coal-400: #d45a42;
+  --color-coal-600: #a03320;
+
+  --color-ash-500: #22c55e;
+  --color-ash-400: #4ade80;
+
+  --font-display: "Bitter", Georgia, serif;
+  --font-body: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* ── Light mode overrides ──
+   Flip the smoke scale so 950 = lightest, 50 = darkest.
+   Darken ember/coal accents for contrast on pale backgrounds. */
+[data-theme="light"] {
+  --color-smoke-950: #f7f4f1;
+  --color-smoke-900: #f0ebe6;
+  --color-smoke-800: #ffffff;
+  --color-smoke-700: #ddd6cf;
+  --color-smoke-600: #c4bbb4;
+  --color-smoke-500: #9b918a;
+  --color-smoke-400: #6b6059;
+  --color-smoke-300: #4d4440;
+  --color-smoke-200: #3a3230;
+  --color-smoke-100: #2a2520;
+  --color-smoke-50: #1a1614;
+
+  --color-ember-500: #b86a28;
+  --color-ember-400: #c4772e;
+  --color-ember-600: #a05a1e;
+  --color-ember-700: #854b18;
+
+  --color-coal-500: #b03b25;
+  --color-coal-400: #c2452d;
+  --color-coal-600: #8f2e1a;
+}
+
+[data-theme="light"] .callout-dos {
+  background: rgba(22, 163, 74, 0.07);
+}
+[data-theme="light"] .callout-dos .callout-title {
+  color: #16a34a;
+}
+[data-theme="light"] .callout-dos li::marker {
+  color: #16a34a;
+}
+[data-theme="light"] .callout-donts {
+  background: rgba(176, 59, 37, 0.06);
+}
+[data-theme="light"] .callout-donts .callout-title {
+  color: #b03b25;
+}
+[data-theme="light"] .callout-donts li::marker {
+  color: #b03b25;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-smoke-900);
+  color: var(--color-smoke-100);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100dvh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-smoke-800);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-smoke-600);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-smoke-500);
+}
+
+/* Markdown content styles */
+.markdown-content h1 {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-smoke-50);
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-ember-500);
+}
+
+.markdown-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--color-smoke-50);
+  margin: 1.75rem 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--color-smoke-600);
+}
+
+.markdown-content h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-ember-400);
+  margin: 1.25rem 0 0.5rem;
+}
+
+.markdown-content p {
+  line-height: 1.7;
+  margin: 0.75rem 0;
+  color: var(--color-smoke-200);
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.markdown-content li {
+  line-height: 1.7;
+  margin: 0.35rem 0;
+  color: var(--color-smoke-200);
+}
+
+.markdown-content li::marker {
+  color: var(--color-ember-500);
+}
+
+.markdown-content strong {
+  color: var(--color-smoke-50);
+  font-weight: 600;
+}
+
+.markdown-content a {
+  color: var(--color-ember-400);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.markdown-content a:hover {
+  border-bottom-color: var(--color-ember-400);
+}
+
+.markdown-content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-smoke-600), transparent);
+  margin: 1.5rem 0;
+}
+
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.markdown-content thead th {
+  background: var(--color-smoke-700);
+  color: var(--color-ember-400);
+  font-family: var(--font-display);
+  font-weight: 600;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid var(--color-ember-700);
+}
+
+.markdown-content tbody td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--color-smoke-700);
+  color: var(--color-smoke-200);
+}
+
+.markdown-content tbody tr:nth-child(even) {
+  background: var(--color-smoke-800);
+}
+
+.markdown-content tbody tr:hover {
+  background: var(--color-smoke-700);
+}
+
+.markdown-content pre {
+  background: var(--color-smoke-950);
+  border: 1px solid var(--color-smoke-700);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.markdown-content code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+
+.markdown-content pre code {
+  color: var(--color-smoke-200);
+}
+
+.markdown-content :not(pre) > code {
+  background: var(--color-smoke-700);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  color: var(--color-ember-400);
+}
+
+/* Do's / Don'ts callout styling */
+.callout-dos {
+  background: rgba(34, 197, 94, 0.06);
+  border-left: 3px solid #22c55e;
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+}
+
+.callout-dos .callout-title {
+  color: #4ade80;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.callout-donts {
+  background: rgba(194, 69, 45, 0.08);
+  border-left: 3px solid var(--color-coal-500);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+}
+
+.callout-donts .callout-title {
+  color: var(--color-coal-400);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.callout-dos ul,
+.callout-donts ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.callout-dos li::marker {
+  color: #4ade80;
+}
+
+.callout-donts li::marker {
+  color: var(--color-coal-400);
+}
+
+/* Missy loader smoke animation */
+@keyframes missy-smoke-rise {
+  0% { opacity: 0; transform: translateY(0); }
+  25% { opacity: 0.4; }
+  100% { opacity: 0; transform: translateY(-20px); }
+}
+
+.missy-smoke {
+  fill: none;
+  stroke: var(--color-smoke-500);
+  stroke-width: 2;
+  stroke-linecap: round;
+  opacity: 0;
+}
+
+.missy-smoke-1 { animation: missy-smoke-rise 2.4s ease-out infinite; }
+.missy-smoke-2 { animation: missy-smoke-rise 2.4s ease-out 0.8s infinite; }
+.missy-smoke-3 { animation: missy-smoke-rise 2.4s ease-out 1.6s infinite; }
+
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0;
+  border-radius: 6px;
+  border: 1px solid var(--color-smoke-700);
+}
+
+.table-wrapper table {
+  margin: 0;
+}

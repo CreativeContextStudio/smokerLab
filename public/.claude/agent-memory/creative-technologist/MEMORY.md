@@ -1,0 +1,1 @@
+- [smokerLab project identity](project_smokerlab_identity.md) - BBQ recipe app, Vite+React+TS+TW4, smoke/ember palette, dog mascot Missy, flame SVG logo
