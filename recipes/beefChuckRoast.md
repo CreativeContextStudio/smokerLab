@@ -36,6 +36,18 @@ Here's a **tight, step‑by‑step guide** for **smoked and braised beef chuck r
 - Don't open the lid during the warm‑up phase.
 - Don't crank the firebox vent wide open and the stack closed; that creates chaos.
 
+<!-- equipment: electric-smoker -->
+## SM045 Setup (smoke phase)
+
+Set your SM045 to **225–250°F** and preheat fully. Load **1–2 oz of oak, hickory, or pecan chunks** in the wood box at the start of the cook.
+
+Place the seasoned chuck roast fat-side up on the middle rack. Insert the meat probe into the thickest part. Close the door.
+
+No spritzing needed in the SM045. The sealed cabinet keeps surface moisture high on its own. Smoke the roast **3–4 hours** until you have a dark red to dark brown bark and the internal temp is around 165–175°F.
+
+Pull the roast off the SM045 and transfer to a covered Dutch oven with 1–2 cups of beef stock or tallow for the braise. The oven braise stage is identical regardless of what smoker you used — it's the two-stage smoke-then-braise approach that makes this cut taste like brisket.
+<!-- /equipment -->
+
 ***
 
 ## 3. Place the chuck roast on the offset

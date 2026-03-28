@@ -10,7 +10,16 @@ interface ShoppingState {
 function loadState(): ShoppingState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (
+        Array.isArray(parsed.selectedSlugs) &&
+        typeof parsed.checkedItems === 'object' &&
+        parsed.checkedItems !== null
+      ) {
+        return parsed;
+      }
+    }
   } catch { /* ignore */ }
   return { selectedSlugs: [], checkedItems: {} };
 }

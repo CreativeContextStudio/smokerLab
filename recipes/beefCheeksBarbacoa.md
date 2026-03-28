@@ -38,6 +38,18 @@ Here's a **tight, step‑by‑step guide** for **smoked beef cheeks (barbacoa‑
 - Don't open the lid during the warm‑up phase.
 - Don't crank the firebox vent wide open and the stack closed; that creates chaos.
 
+<!-- equipment: electric-smoker -->
+## SM045 Setup (smoke phase)
+
+Set your SM045 to **225–250°F** and preheat fully. Load **1–2 oz of oak or hickory chunks** in the wood box. You're smoking for color and bark only — this is a 3–4 hour smoke phase, not a full cook.
+
+Place the seasoned beef cheeks on the middle rack. Close the door and leave it. No spritzing needed; the SM045 retains moisture naturally and beef cheeks don't need babysitting during the smoke phase.
+
+Smoke **3–4 hours** until the cheeks have a deep, dark, smoky exterior. You're looking for color, not a specific internal temperature — usually somewhere around 165–175°F internal when the bark looks right.
+
+Pull the cheeks off the SM045 and proceed directly to the overnight tallow confit in the oven. That stage is unchanged regardless of whether you used an offset or the SM045.
+<!-- /equipment -->
+
 ***
 
 ## 3. Place the beef cheeks on the offset

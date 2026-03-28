@@ -48,21 +48,41 @@ All of this fits inside a realistic **2.5–3.5 hour offset window** if you prep
 
 ## 3. Set up the Royal Gourmet smoker (1–1.5 hours before serving)
 
-- **Target temp:** 325–375°F for a **hot, fast smoke** (this is great for veggies).  
-- **Fire:**  
+- **Target temp:** 325–375°F for a **hot, fast smoke** (this is great for veggies).
+- **Fire:**
   - Charcoal basket in the firebox, building a **hot charcoal bed** with 1–2 mild wood chunks (apple, maple, or oak). [royalgourmetcorp](https://www.royalgourmetcorp.com/pdfs/item/2020/20200922/45bdea1a-4c30-4965-976d-e9fea0aa2fa4__CC1830S.pdf)
-- **Vents:**  
-  - Stack **fully open**; firebox intake **1/2–3/4 open** to hold 325–375°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan under the grate opposite the heat source to catch drips. [best practice]  
+- **Vents:**
+  - Stack **fully open**; firebox intake **1/2–3/4 open** to hold 325–375°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan under the grate opposite the heat source to catch drips. [best practice]
 
-**Do’s**  
-- Let the smoker come to temp before loading veggies.  
-- Use a **grate‑level thermometer** near the veggies to monitor the surface temp.  
+**Do’s**
+- Let the smoker come to temp before loading veggies.
+- Use a **grate‑level thermometer** near the veggies to monitor the surface temp.
 
-**Don’ts**  
-- Don’t start the veggies too early; the smoker should be hot and stable before you load them.  
-- Don’t overcrowd the grate; veggies need space for even air circulation.  
+**Don’ts**
+- Don’t start the veggies too early; the smoker should be hot and stable before you load them.
+- Don’t overcrowd the grate; veggies need space for even air circulation.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **250–275°F** and preheat fully. Load **1–2 oz of apple or oak chunks** in the wood box. Smoke concentrates fast in the enclosed SM045 cabinet — err toward the low end for a subtler flavor, especially on tomatoes and onions which absorb smoke readily.
+
+The SM045 runs at lower heat than a hot offset, so plan for longer cook times overall. The upside is the humid cabinet is forgiving — vegetables won’t dry out even if you go a little long.
+
+**Stagger loads the same way you would on an offset:**
+
+| Order | Items | SM045 time |
+| --- | --- | --- |
+| First in | Eggplant (skin-side down), portobello caps (gills up) | 20–30 minutes |
+| Second in | Bell peppers, onion wedges, tomatoes | 25–40 minutes |
+| Last in | Garlic cloves | 15–25 minutes |
+
+Use all three racks if needed — the SM045’s three 14"x18" racks give you plenty of capacity for a full spread.
+
+For zucchini, asparagus, and squash: these quick-cooking items are better finished on a separate grill or grill pan for char marks. The SM045 will soften them but won’t give you the color and texture that a hot grate provides.
+<!-- /equipment -->  
 
 ***
 

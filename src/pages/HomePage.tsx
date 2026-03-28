@@ -1,18 +1,29 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { getAllRecipes, getAllHowTos } from '../content/loader';
+import { useEquipmentContext } from '../context/EquipmentContext';
 import RecipeCard from '../components/RecipeCard';
-
 
 const allRecipes = getAllRecipes();
 const allHowTos = getAllHowTos();
 
-// Featured recipes
-const featuredSlugs = ['brisketSliced', 'porkbuttPulled', 'porkRibsBabyback', 'bacon', 'salmon', 'chxSpatch'];
-const featured = featuredSlugs
-  .map((slug) => allRecipes.find((r) => r.slug === slug))
-  .filter(Boolean) as typeof allRecipes;
-
 export default function HomePage() {
+  const { equipmentId, equipment } = useEquipmentContext();
+
+  const equipmentRecipes = useMemo(() => {
+    return allRecipes.filter((r) =>
+      !r.supportedEquipment || r.supportedEquipment.includes(equipmentId)
+    );
+  }, [equipmentId]);
+
+  const equipmentHowTos = useMemo(() => {
+    return allHowTos.filter((h) =>
+      !h.equipmentId || h.equipmentId === equipmentId
+    );
+  }, [equipmentId]);
+
+  // Show up to 6 featured recipes for the active equipment
+  const featured = equipmentRecipes.slice(0, 6);
   return (
     <div>
       {/* Hero */}
@@ -35,7 +46,7 @@ export default function HomePage() {
           smokerLab
         </h1>
         <p className="text-smoke-300 text-sm md:text-base max-w-md mx-auto mb-8">
-          Recipes, guides, and shopping lists for the Royal Gourmet CC1830S offset smoker.
+          Recipes, guides, and shopping lists for the {equipment.model}.
         </p>
 
         <div className="flex flex-wrap justify-center gap-3">
@@ -46,7 +57,7 @@ export default function HomePage() {
             <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
               <path d="M8 1a.5.5 0 0 1 .5.5V6h4a.5.5 0 0 1 .354.854l-5 5A.5.5 0 0 1 7 11.5V7H3a.5.5 0 0 1-.354-.854l5-5A.5.5 0 0 1 8 1z"/>
             </svg>
-            {allRecipes.length} Recipes
+            {equipmentRecipes.length} Recipes
           </Link>
           <Link
             to="/howto"
@@ -55,7 +66,7 @@ export default function HomePage() {
             <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
               <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
             </svg>
-            {allHowTos.length} Guides
+            {equipmentHowTos.length} Guides
           </Link>
           <Link
             to="/shopping"
@@ -93,7 +104,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {allHowTos.slice(0, 4).map((h) => (
+          {equipmentHowTos.slice(0, 4).map((h) => (
             <Link
               key={h.slug}
               to={`/howto/${h.slug}`}

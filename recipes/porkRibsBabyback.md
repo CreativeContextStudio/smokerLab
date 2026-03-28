@@ -37,21 +37,33 @@
 
 ## 3. Set up the Royal Gourmet smoker
 
-- **Target temp:** 225–250°F for pork baby back ribs.  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small wood chunks (apple, hickory, or maple). [best practice]  
-- **Vents:**  
-  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 225–250°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]  
+- **Target temp:** 225–250°F for pork baby back ribs.
+- **Fire:**
+  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small wood chunks (apple, hickory, or maple). [best practice]
+- **Vents:**
+  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 225–250°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]
 
-**Do’s**  
-- Let the smoker come to temp **before** you load the ribs.  
-- Use a **grate‑level thermometer** near the ribs to monitor the surface temp.  
+**Do’s**
+- Let the smoker come to temp **before** you load the ribs.
+- Use a **grate‑level thermometer** near the ribs to monitor the surface temp.
 
-**Don’ts**  
-- Don’t start the ribs too early; the smoker should be hot and stable before you load them.  
-- Don’t overcrowd the grate; ribs need space for even air circulation.  
+**Don’ts**
+- Don’t start the ribs too early; the smoker should be hot and stable before you load them.
+- Don’t overcrowd the grate; ribs need space for even air circulation.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **225–240°F** and preheat fully. Load **1–2 oz of apple or hickory chunks** in the wood box. That is your complete wood charge — don’t add more mid-cook.
+
+Place the rack meat-side up on the middle rack. If the rack is longer than the shelf, curve it gently or cut it in half. Close the door.
+
+No spritzing needed. The SM045’s humid environment does the moisture work for you. You can still wrap around hours 3–4 if you want to speed up the cook — the wrap technique is unchanged — but the SM045’s inherent humidity means you can shorten the wrap phase by 20–30 minutes if you prefer more bark.
+
+Judge doneness by the **bend test** (rack droops and cracks form when you lift one end with tongs) and **bone pullback** (1/4–1/2 inch of clean bone visible at the ends). Budget **4–6 hours** total. No probing required for ribs — feel and bend are the right tools.
+<!-- /equipment -->  
 
 ***
 

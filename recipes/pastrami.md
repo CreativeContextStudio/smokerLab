@@ -81,21 +81,35 @@ We’ll walk through each phase with concrete times and targets.
 
 ## 4. Set up the Royal Gourmet smoker (Day 0, fire‑up)
 
-- **Target temp:** 250–275°F for a 3–5 lb brisket flat.  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small mild wood chunks (apple, hickory, or maple). [best practice]  
-- **Vents:**  
-  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 250–275°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]  
+- **Target temp:** 250–275°F for a 3–5 lb brisket flat.
+- **Fire:**
+  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small mild wood chunks (apple, hickory, or maple). [best practice]
+- **Vents:**
+  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 250–275°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]
 
-**Do’s**  
-- Double‑check that **door gaskets and seams are sealed**. [best practice]  
-- Use **baffle / tuning plates** so the heat travels smoothly from firebox to stack side. [best practice]  
+**Do’s**
+- Double‑check that **door gaskets and seams are sealed**. [best practice]
+- Use **baffle / tuning plates** so the heat travels smoothly from firebox to stack side. [best practice]
 
-**Don’ts**  
-- Don’t open the lid during the warm‑up phase.  
-- Don’t crank the firebox vent wide open and the stack closed; that creates chaos.  
+**Don’ts**
+- Don’t open the lid during the warm‑up phase.
+- Don’t crank the firebox vent wide open and the stack closed; that creates chaos.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup (Day 0, smoke phase)
+
+The cure and pellicle process is identical regardless of equipment — those steps don’t change. What changes is the smoke phase.
+
+Set your SM045 controller to **225–250°F** and preheat fully. Load **2 oz of hickory or apple chunks** in the wood box. Hickory gives that classic deli pastrami note; apple is slightly softer.
+
+Place the cured, rubbed flat fat-side up on the middle rack. Insert the meat probe into the thickest part.
+
+The SM045’s humid cabinet is actually excellent for pastrami — the cured meat is already well-seasoned and the moisture-retentive environment helps develop a beautiful glossy bark. No water pan, no spritzing needed.
+
+Expect the smoke phase to run **5–8 hours** (longer than the offset version). Target **195–205°F probe-tender** for medium-to-thick slicing. The pastrami rub should develop a dark, fragrant bark; don’t rush it. Rest wrapped 1.5–2 hours before slicing against the grain.
+<!-- /equipment -->  
 
 ***
 

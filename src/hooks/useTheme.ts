@@ -19,11 +19,6 @@ export function useTheme() {
     localStorage.setItem(STORAGE_KEY, theme);
   }, [theme]);
 
-  // Apply on first mount (before React hydration flicker)
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', getInitialTheme());
-  }, []);
-
   const toggle = useCallback(() => {
     setThemeState((prev) => (prev === 'light' ? 'dark' : 'light'));
   }, []);

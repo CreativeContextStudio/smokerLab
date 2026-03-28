@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
+import { EquipmentProvider } from './context/EquipmentContext';
 import HomePage from './pages/HomePage';
 import RecipesPage from './pages/RecipesPage';
 import HowTosPage from './pages/HowTosPage';
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: 'howto', element: <HowTosPage /> },
       { path: 'howto/:slug', lazy: () => import('./pages/HowToDetailPage').then(m => ({ Component: m.default })) },
       { path: 'shopping', element: <ShoppingListPage /> },
+      { path: 'equipment', lazy: () => import('./pages/EquipmentPage').then(m => ({ Component: m.default })) },
       { path: '*', element: <NotFoundPage /> },
     ],
   },
@@ -27,6 +29,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <EquipmentProvider>
+      <RouterProvider router={router} />
+    </EquipmentProvider>
   </StrictMode>,
 );

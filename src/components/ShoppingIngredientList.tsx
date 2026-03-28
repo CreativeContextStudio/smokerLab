@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { getRecipeMeta } from '../content/loader';
 import { howtos } from '../content/manifest';
+import { useEquipmentContext } from '../context/EquipmentContext';
 import { SHOPPING_CATEGORY_LABELS } from '../types';
 import MissyEmptyState from './MissyEmptyState';
 import type { Ingredient } from '../types';
@@ -20,17 +21,23 @@ interface GroupedItem {
 }
 
 export default function ShoppingIngredientList({ selectedSlugs, checkedItems, onToggleItem }: Props) {
+  const { equipmentId } = useEquipmentContext();
+
   const grouped = useMemo(() => {
     // Collect all ingredients from selected recipes/mods
     const allItems: { item: Ingredient; source: string; group: string }[] = [];
 
     for (const slug of selectedSlugs) {
       if (slug === '__mods__') {
-        const mods = howtos.find((h) => h.slug === 'shoppingList');
+        // Find equipment-specific mods howto
+        const mods = howtos.find((h) =>
+          h.shoppingItems && h.shoppingItems.length > 0 &&
+          (!h.equipmentId || h.equipmentId === equipmentId)
+        );
         if (mods?.shoppingItems) {
           for (const group of mods.shoppingItems) {
             for (const item of group.items) {
-              allItems.push({ item, source: 'Smoker Mods', group: group.groupName });
+              allItems.push({ item, source: 'Equipment Supplies', group: group.groupName });
             }
           }
         }
@@ -39,7 +46,12 @@ export default function ShoppingIngredientList({ selectedSlugs, checkedItems, on
 
       const meta = getRecipeMeta(slug);
       if (!meta) continue;
-      for (const group of meta.ingredients) {
+
+      // Use equipment override ingredients if available, otherwise base
+      const override = meta.equipmentOverrides?.find((o) => o.equipmentId === equipmentId);
+      const ingredients = override?.ingredients ?? meta.ingredients;
+
+      for (const group of ingredients) {
         for (const item of group.items) {
           allItems.push({ item, source: meta.title, group: group.groupName });
         }
@@ -78,7 +90,7 @@ export default function ShoppingIngredientList({ selectedSlugs, checkedItems, on
     }
 
     return byCategory;
-  }, [selectedSlugs]);
+  }, [selectedSlugs, equipmentId]);
 
   if (selectedSlugs.length === 0) {
     return (

@@ -19,21 +19,35 @@ All times are approximate; always use the **meat‑probe tenderness rule** (slid
 
 ## 2. Fire up and stabilize (225–250°F)
 
-- Start your King Charcoal / Royal Gourmet coal pan in the firebox.  
-- **Fire setup:**  
-  - 2/3 unlit charcoal in the basket, 1/3 lit from chimney dumped on one side (minion‑style).  
-  - Add 1–2 wood chunks (apple, hickory, pecan) once the smoker reads ~200°F. [best practice]  
-- **Vents:**  
-  - Stack fully open.  
-  - Firebox intake about 1/2 open at first, then dial to 1/4–1/3 once you hit 225–250°F. [best practice]  
+- Start your King Charcoal / Royal Gourmet coal pan in the firebox.
+- **Fire setup:**
+  - 2/3 unlit charcoal in the basket, 1/3 lit from chimney dumped on one side (minion‑style).
+  - Add 1–2 wood chunks (apple, hickory, pecan) once the smoker reads ~200°F. [best practice]
+- **Vents:**
+  - Stack fully open.
+  - Firebox intake about 1/2 open at first, then dial to 1/4–1/3 once you hit 225–250°F. [best practice]
 
-**Do’s:**  
-- Double‑check that **door gaskets** and **baffle/tuning plates** seal the chamber.  
-- Place a **water pan** on the grate on the “stack side” to buffer temps. [best practice]  
+**Do’s:**
+- Double‑check that **door gaskets** and **baffle/tuning plates** seal the chamber.
+- Place a **water pan** on the grate on the “stack side” to buffer temps. [best practice]
 
-**Don’ts:**  
-- Don’t open the lid during this 20–30 min warm‑up.  
-- Don’t use whole logs or too much wood in the firebox.  
+**Don’ts:**
+- Don’t open the lid during this 20–30 min warm‑up.
+- Don’t use whole logs or too much wood in the firebox.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **235–250°F** and preheat with the door closed for 30–60 minutes. Load **2 oz of hickory or apple chunks** in the wood box at the start — this is your complete wood charge for the entire cook.
+
+Place the butt fat-side up on the middle rack. Insert the meat probe into the thickest part, avoiding large fat pockets. Close the door.
+
+**No spritzing needed.** The SM045’s sealed cabinet naturally keeps surface moisture high. The wood box smolders without an open flame, producing clean smoke throughout the cook.
+
+The stall will likely be longer in the SM045 than on an offset because the humid environment reduces the evaporative effect that normally breaks the stall. Budget **6–10 hours** for a 3–4 lb butt. When the internal temp stalls around 165–175°F, wrap tightly in butcher paper — this is still the best tool for pushing through it.
+
+Begin checking for probe tenderness at 5 hours. Pull at **198–205°F probe-tender**. Rest wrapped for 1–2 hours before pulling.
+<!-- /equipment -->  
 
 ***
 

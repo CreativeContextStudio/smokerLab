@@ -20,18 +20,30 @@
 
 ## 2. Set up the Royal Gourmet offset smoker
 
-- **Target temp:** 225–250°F for a small butt going to be sliced.  
-- **Fuel:**  
-  - Charcoal basket in the firebox with a **minion‑style fire** (2/3 unlit, 1/3 lit) plus 1–2 small wood chunks (apple, hickory, maple). [best practice]  
+- **Target temp:** 225–250°F for a small butt going to be sliced.
+- **Fuel:**
+  - Charcoal basket in the firebox with a **minion‑style fire** (2/3 unlit, 1/3 lit) plus 1–2 small wood chunks (apple, hickory, maple). [best practice]
 
-**Do’s**  
-- Use **baffle / tuning plates** so the heat travels under the grate and isn’t blasting one side. [best practice]  
-- Place a **water pan** on the grate on the stack side to stabilize temps. [best practice]  
-- Keep the **exhaust stack mostly open**, and fine‑tune with the **firebox intake**. [best practice]  
+**Do’s**
+- Use **baffle / tuning plates** so the heat travels under the grate and isn’t blasting one side. [best practice]
+- Place a **water pan** on the grate on the stack side to stabilize temps. [best practice]
+- Keep the **exhaust stack mostly open**, and fine‑tune with the **firebox intake**. [best practice]
 
-**Don’ts**  
-- Don’t over‑fire the firebox with whole logs.  
-- Don’t open the lid during warm‑up or the first part of the cook.  
+**Don’ts**
+- Don’t over‑fire the firebox with whole logs.
+- Don’t open the lid during warm‑up or the first part of the cook.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **235–250°F** and preheat with the door closed. Load **2 oz of hickory or apple chunks** in the wood box at the start.
+
+Place the butt fat-side up (or fat-side down if you prefer a crust on the presentation side) on the middle rack. Insert the meat probe. Close the door and leave it.
+
+No spritzing needed. For sliced pork butt, you want **195–203°F probe-tender** — don’t push past 205°F or you’ll lose the slicing structure and it will want to shred. Bark will be slightly softer than offset because of the humid environment; if you want a firmer crust, run the last 20–30 minutes unwrapped at 250°F.
+
+Budget **6–10 hours** for a 3–4 lb butt. Begin probing at 5 hours. Rest 1.5–2 hours wrapped before slicing.
+<!-- /equipment -->  
 
 ***
 

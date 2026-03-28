@@ -2,9 +2,22 @@ import { useMemo, type ReactNode, type JSX } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import rehypeSanitize, { defaultSchema } from 'rehype-sanitize';
+
+import type { EquipmentType } from '../types';
+
+const sanitizeSchema = {
+  ...defaultSchema,
+  tagNames: [...(defaultSchema.tagNames ?? []), 'div'],
+  attributes: {
+    ...defaultSchema.attributes,
+    div: [...(defaultSchema.attributes?.div ?? []), 'className', 'class'],
+  },
+};
 
 interface Props {
   content: string;
+  equipmentId?: EquipmentType;
 }
 
 /**
@@ -50,6 +63,42 @@ function preprocessCallouts(md: string): string {
   return result.join('\n');
 }
 
+/**
+ * Filters markdown content by equipment type.
+ * Keeps content inside matching <!-- equipment: xxx --> blocks and
+ * removes content inside non-matching blocks. Content outside any
+ * equipment block is always kept.
+ */
+function filterByEquipment(md: string, equipmentId: EquipmentType): string {
+  const lines = md.split('\n');
+  const result: string[] = [];
+  let activeBlock: string | null = null;
+  let keeping = true;
+
+  for (const line of lines) {
+    const openMatch = line.match(/^<!--\s*equipment:\s*([\w-]+)\s*-->$/);
+    const closeMatch = line.match(/^<!--\s*\/equipment\s*-->$/);
+
+    if (openMatch) {
+      activeBlock = openMatch[1];
+      keeping = activeBlock === equipmentId;
+      continue;
+    }
+
+    if (closeMatch) {
+      activeBlock = null;
+      keeping = true;
+      continue;
+    }
+
+    if (keeping) {
+      result.push(line);
+    }
+  }
+
+  return result.join('\n');
+}
+
 const components: Record<string, (props: Record<string, unknown>) => JSX.Element> = {
   table: ({ children, ...props }: { children?: ReactNode }) => (
     <div className="table-wrapper">
@@ -69,18 +118,21 @@ const components: Record<string, (props: Record<string, unknown>) => JSX.Element
   },
 };
 
-export default function MarkdownRenderer({ content }: Props) {
-  const processed = useMemo(() => preprocessCallouts(content), [content]);
+export default function MarkdownRenderer({ content, equipmentId }: Props) {
+  const processed = useMemo(() => {
+    const filtered = equipmentId ? filterByEquipment(content, equipmentId) : content;
+    return preprocessCallouts(filtered);
+  }, [content, equipmentId]);
 
   return (
     <div className="markdown-content">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
-        rehypePlugins={[rehypeRaw]}
+        rehypePlugins={[rehypeRaw, [rehypeSanitize, sanitizeSchema]]}
         components={components}
-        // eslint-disable-next-line react/no-children-prop
-        children={processed}
-      />
+      >
+        {processed}
+      </ReactMarkdown>
     </div>
   );
 }

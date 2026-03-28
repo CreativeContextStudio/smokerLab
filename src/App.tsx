@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link, Outlet, useLocation, useNavigation } from 'react-router-dom';
 import { useTheme } from './hooks/useTheme';
+import { useEquipmentContext } from './context/EquipmentContext';
+import EquipmentSelector from './components/EquipmentSelector';
 import MissyLoader from './components/MissyLoader';
 
 const NAV_ITEMS = [
@@ -8,6 +10,7 @@ const NAV_ITEMS = [
   { path: '/recipes', label: 'Recipes' },
   { path: '/howto', label: 'How-To' },
   { path: '/shopping', label: 'Shopping List' },
+  { path: '/equipment', label: 'Equipment' },
 ];
 
 function ThemeToggle({ theme, onToggle, size = 16 }: { theme: string; onToggle: () => void; size?: number }) {
@@ -36,6 +39,7 @@ export default function App() {
   const navigation = useNavigation();
   const [menuOpen, setMenuOpen] = useState(false);
   const { theme, toggle: toggleTheme } = useTheme();
+  const { equipment: activeEquipment } = useEquipmentContext();
 
   function isActive(path: string) {
     if (path === '/') return location.pathname === '/';
@@ -79,7 +83,8 @@ export default function App() {
                 {item.label}
               </Link>
             ))}
-            <span className="ml-2">
+            <span className="ml-2 flex items-center gap-1">
+              <EquipmentSelector />
               <ThemeToggle theme={theme} onToggle={toggleTheme} />
             </span>
           </nav>
@@ -106,6 +111,9 @@ export default function App() {
         {/* Mobile menu dropdown */}
         {menuOpen && (
           <nav className="md:hidden border-t border-smoke-700 bg-smoke-950/98 pb-3">
+            <div className="px-4 py-3 border-b border-smoke-700">
+              <EquipmentSelector />
+            </div>
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.path}
@@ -136,7 +144,7 @@ export default function App() {
 
       <footer className="border-t border-smoke-800 mt-12">
         <div className="max-w-5xl mx-auto px-4 py-6 text-center text-smoke-500 text-xs">
-          smokerLab &middot; Royal Gourmet CC1830S
+          smokerLab &middot; {activeEquipment.model}
         </div>
       </footer>
     </div>

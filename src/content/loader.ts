@@ -1,14 +1,9 @@
 import { recipes, howtos } from './manifest';
 import type { RecipeMeta, HowToMeta } from '../types';
 
-// Load all markdown/text files at build time
-const recipeModulesMd = import.meta.glob(
+// Load all markdown files at build time
+const recipeModules = import.meta.glob(
   '../../recipes/*.md',
-  { query: '?raw', import: 'default', eager: true }
-) as Record<string, string>;
-
-const recipeModulesTxt = import.meta.glob(
-  '../../recipes/*.txt',
   { query: '?raw', import: 'default', eager: true }
 ) as Record<string, string>;
 
@@ -17,15 +12,9 @@ const howtoModules = import.meta.glob(
   { query: '?raw', import: 'default', eager: true }
 ) as Record<string, string>;
 
-// Merge md and txt recipe modules
-const recipeModules = { ...recipeModulesMd, ...recipeModulesTxt };
-
 function extractSlug(path: string): string {
   const filename = path.split('/').pop() ?? '';
-  // Remove extension (.md or .txt)
-  const name = filename.replace(/\.(md|txt)$/, '');
-  // For filenames with spaces, convert to slug
-  return name.replace(/\s+/g, '-').toLowerCase();
+  return filename.replace(/\.md$/, '');
 }
 
 // Build slug -> content maps
@@ -41,22 +30,8 @@ for (const [path, content] of Object.entries(howtoModules)) {
   howtoContentMap.set(slug, content);
 }
 
-// Also map by the manifest slug (for the txt file with different naming)
-// The txt file "3 Best Brisket Alternatives Under $30.txt" -> slug "3-best-brisket-alternatives-under-$30"
-// We need to match it to manifest slug "3-best-brisket-alternatives-under-30"
-function normalizeSlug(s: string): string {
-  return s.toLowerCase().replace(/[^a-z0-9-]/g, '');
-}
-
 export function getRecipeContent(slug: string): string | undefined {
-  // Direct match first
-  if (recipeContentMap.has(slug)) return recipeContentMap.get(slug);
-  // Normalized match for edge cases (like $ in filename)
-  const normalized = normalizeSlug(slug);
-  for (const [key, val] of recipeContentMap) {
-    if (normalizeSlug(key) === normalized) return val;
-  }
-  return undefined;
+  return recipeContentMap.get(slug);
 }
 
 export function getHowToContent(slug: string): string | undefined {

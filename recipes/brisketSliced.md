@@ -20,21 +20,37 @@ Here’s a **tight, step‑by‑step guide** for **3–5 lb sliced brisket** on 
 
 ## 2. Set up the Royal Gourmet smoker
 
-- **Target temp:** 250–275°F for a 3–5 lb piece.  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small wood chunks (hickory, oak, pecan). [best practice]  
-- **Vents:**  
-  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 250–275°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]  
+- **Target temp:** 250–275°F for a 3–5 lb piece.
+- **Fire:**
+  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small wood chunks (hickory, oak, pecan). [best practice]
+- **Vents:**
+  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 250–275°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]
 
-**Do’s**  
-- Double‑check that **door gaskets and seams are sealed**. [best practice]  
-- Use **baffle / tuning plates** so the heat travels smoothly from firebox to stack side. [best practice]  
+**Do’s**
+- Double‑check that **door gaskets and seams are sealed**. [best practice]
+- Use **baffle / tuning plates** so the heat travels smoothly from firebox to stack side. [best practice]
 
-**Don’ts**  
-- Don’t open the lid during the warm‑up phase.  
-- Don’t crank the firebox vent wide open and the stack closed; that creates chaos.  
+**Don’ts**
+- Don’t open the lid during the warm‑up phase.
+- Don’t crank the firebox vent wide open and the stack closed; that creates chaos.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 controller to **225–250°F** and allow 30–60 minutes to fully preheat with the door closed. Brief overshoot above setpoint during heat-up is normal.
+
+Load **2 oz of hickory, oak, or pecan chunks** (cut to 1–2" pieces) into the wood box at the start of the cook. This is your only wood charge — do not open the door to add more mid-cook.
+
+Place the brisket fat-side up on the **middle rack**. Insert the meat probe into the thickest part, avoiding fat pockets.
+
+**No spritzing needed.** The SM045’s sealed, humid cabinet retains moisture naturally. Opening the door to spritz just loses heat and extends the cook.
+
+Expect the stall (the temperature plateau around 160–170°F) to be more pronounced and longer than on an offset — the humid environment slows evaporative cooling less dramatically, but the insulated cabinet also traps that moisture. Budget **6–10 hours** for a 3–5 lb flat. Begin probing for tenderness at 5 hours.
+
+Target **195–203°F probe-tender** for slicing. When the probe slides in like room-temperature butter with no resistance, you’re done. If you want a firmer bark, unwrap and let the brisket sit in the SM045 at 250°F for the last 20–30 minutes before pulling.
+<!-- /equipment -->  
 
 ***
 

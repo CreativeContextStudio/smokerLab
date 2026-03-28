@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useShoppingList } from '../hooks/useShoppingList';
 import ShoppingRecipeSelector from '../components/ShoppingRecipeSelector';
@@ -9,9 +9,11 @@ export default function ShoppingListPage() {
   const [searchParams, setSearchParams] = useSearchParams();
 
   // Handle ?add=slug from recipe detail page
+  const processedRef = useRef(false);
   useEffect(() => {
     const addSlug = searchParams.get('add');
-    if (addSlug) {
+    if (addSlug && !processedRef.current) {
+      processedRef.current = true;
       addRecipe(addSlug);
       setSearchParams({}, { replace: true });
     }

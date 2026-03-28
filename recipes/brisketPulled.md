@@ -21,21 +21,35 @@ Here’s a **tight, step‑by‑step guide** for **3–5 lb pulled brisket** on 
 
 ## 2. Set up the Royal Gourmet smoker
 
-- **Target temp:** 250–275°F for a 3–5 lb pulled brisket.  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small wood chunks (hickory, oak, pecan). [best practice]  
-- **Vents:**  
-  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 250–275°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]  
+- **Target temp:** 250–275°F for a 3–5 lb pulled brisket.
+- **Fire:**
+  - Charcoal basket in the firebox, building a **minion‑style fire** (2/3 unlit, 1/3 lit) with 1–2 small wood chunks (hickory, oak, pecan). [best practice]
+- **Vents:**
+  - Stack **mostly open**; firebox intake **1/4–1/3 open** to hold 250–275°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan on the grate on the **stack side** to buffer temps. [best practice]
 
-**Do’s**  
-- Double‑check that **door gaskets and seams are sealed**. [best practice]  
-- Use **baffle / tuning plates** so the heat travels smoothly from firebox to stack side. [best practice]  
+**Do’s**
+- Double‑check that **door gaskets and seams are sealed**. [best practice]
+- Use **baffle / tuning plates** so the heat travels smoothly from firebox to stack side. [best practice]
 
-**Don’ts**  
-- Don’t open the lid during the warm‑up phase.  
-- Don’t crank the firebox vent wide open and the stack closed; that creates chaos.  
+**Don’ts**
+- Don’t open the lid during the warm‑up phase.
+- Don’t crank the firebox vent wide open and the stack closed; that creates chaos.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 controller to **225–250°F** and preheat fully before loading meat. Load **2 oz of hickory, oak, or pecan chunks** in the wood box at the start — this is your only smoke charge.
+
+Place the brisket fat-side up on the middle rack and insert the meat probe into the thickest part. Close the door and leave it.
+
+**No spritzing needed.** The SM045 holds moisture naturally; the wrap is still the right move to push through the stall, but do it with minimal door-open time.
+
+When the brisket hits **170–180°F**, open quickly, wrap tightly in butcher paper with a small splash of beef broth inside the wrap, and return it to the cabinet. The door-open time should be under 2 minutes.
+
+Budget **6–10 hours** for a 3–5 lb piece. Target **200–208°F probe-tender** for pulled brisket — deeper than sliced because you need the collagen fully broken down. Rest wrapped for 1–2 hours before pulling.
+<!-- /equipment -->  
 
 ***
 

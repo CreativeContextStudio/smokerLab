@@ -41,22 +41,34 @@ Here’s a **tight, step‑by‑step guide** for **smoked chicken thighs** on yo
 
 ## 3. Set up the Royal Gourmet smoker
 
-- **Target temp:** 325–375°F for chicken thighs (this is **hotter** than brisket, which is fine for a small bird).  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **hot charcoal bed** (not minion‑style; this is a fast, high‑heat cook).  
-  - Add 1–2 small wood chunks (apple, hickory, or maple) for a light smoke flavor. [best practice]  
-- **Vents:**  
-  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 325–375°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]  
+- **Target temp:** 325–375°F for chicken thighs (this is **hotter** than brisket, which is fine for a small bird).
+- **Fire:**
+  - Charcoal basket in the firebox, building a **hot charcoal bed** (not minion‑style; this is a fast, high‑heat cook).
+  - Add 1–2 small wood chunks (apple, hickory, or maple) for a light smoke flavor. [best practice]
+- **Vents:**
+  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 325–375°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]
 
-**Do’s**  
-- Let the smoker come to temp **before** you load the chicken.  
-- Use a **grate‑level thermometer** near the thighs to monitor the surface temp.  
+**Do’s**
+- Let the smoker come to temp **before** you load the chicken.
+- Use a **grate‑level thermometer** near the thighs to monitor the surface temp.
 
-**Don’ts**  
-- Don’t start the thighs too early; the smoker should be hot and stable before you load them.  
-- Don’t overcrowd the grate; chicken thighs need space for even air circulation.  
+**Don’ts**
+- Don’t start the thighs too early; the smoker should be hot and stable before you load them.
+- Don’t overcrowd the grate; chicken thighs need space for even air circulation.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **275–300°F** and preheat fully. Load **1 oz of apple or cherry chunks** in the wood box.
+
+Dry the thighs thoroughly with paper towels before seasoning — wet skin in a humid cabinet will come out rubbery. Arrange skin-side up on the middle rack with space between pieces so air circulates.
+
+Budget **45–75 minutes** to reach 165°F at the thickest part of the thigh. Check at 40 minutes.
+
+The SM045 will produce beautifully juicy, smoke-flavored thighs with soft skin. If crispy skin is the goal, finish the thighs skin-side down in a hot cast iron pan or under the broiler for 2–3 minutes after they hit 165°F. That step is what closes the gap between electric-smoked and offset-smoked poultry.
+<!-- /equipment -->  
 
 ***
 

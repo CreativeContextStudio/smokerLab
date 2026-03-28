@@ -44,22 +44,40 @@ Here’s a **tight, step‑by‑step guide** for **spatchcocked chicken** on you
 
 ## 3. Set up the Royal Gourmet smoker
 
-- **Target temp:** 325–375°F for a spatchcocked chicken (this is **hotter** than brisket, which is fine for a small bird).  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **hot charcoal bed** (not minion‑style; this is a fast, high‑heat cook).  
-  - Add 1–2 small wood chunks (apple, hickory, or maple) for a light smoke flavor. [best practice]  
-- **Vents:**  
-  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 325–375°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]  
+- **Target temp:** 325–375°F for a spatchcocked chicken (this is **hotter** than brisket, which is fine for a small bird).
+- **Fire:**
+  - Charcoal basket in the firebox, building a **hot charcoal bed** (not minion‑style; this is a fast, high‑heat cook).
+  - Add 1–2 small wood chunks (apple, hickory, or maple) for a light smoke flavor. [best practice]
+- **Vents:**
+  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 325–375°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]
 
-**Do’s**  
-- Let the smoker come to temp **before** you load the chicken.  
-- Use a **grate‑level thermometer** near the chicken to monitor the surface temp.  
+**Do’s**
+- Let the smoker come to temp **before** you load the chicken.
+- Use a **grate‑level thermometer** near the chicken to monitor the surface temp.
 
-**Don’ts**  
-- Don’t start the chicken too early; the smoker should be hot and stable before you load it.  
-- Don’t overcrowd the grate; spatchcocked chicken needs space for even air circulation.  
+**Don’ts**
+- Don’t start the chicken too early; the smoker should be hot and stable before you load it.
+- Don’t overcrowd the grate; spatchcocked chicken needs space for even air circulation.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **275–300°F** — this is its maximum practical operating range. Preheat for 30–45 minutes.
+
+Load **1 oz of apple or cherry chunks** in the wood box. Mild fruitwood is the right call here; it complements poultry without overpowering it in the enclosed, low-airflow cabinet.
+
+For best results, dry-brine the spatchcocked bird uncovered in the refrigerator for 1–2 hours before cooking. Dry skin absorbs smoke better and releases moisture more readily.
+
+Place the bird breast-side up on the middle rack. Insert the probe into the thickest part of the breast. Close the door and leave it.
+
+Budget **1.5–2.5 hours** to hit 165°F at the thickest point. The SM045’s humid, low-airflow environment will **not produce crispy skin** on its own — this is the one real limitation of electric cabinet smokers on poultry. After the bird hits 165°F, immediately transfer it to one of these finishing options:
+- **Broiler:** 3–5 minutes per side at high broil, skin-side up.
+- **Hot grill:** 2–4 minutes per side directly over hot coals or high-heat gas.
+
+The broiler or grill finish transforms soft, smoke-kissed skin into proper crispness. Don’t skip it.
+<!-- /equipment -->  
 
 ***
 

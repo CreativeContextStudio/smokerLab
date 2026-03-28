@@ -63,22 +63,36 @@ Here’s a **tight, step‑by‑step guide** for smoked salmon on your **Royal G
 
 ## 4. Set up the Royal Gourmet smoker
 
-- **Target temp:** 225–250°F for salmon (this is **hotter** than brisket, which is fine for a small fish).  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **hot charcoal bed** (not minion‑style; this is a fast, high‑heat cook).  
-  - Add 1–2 small wood chunks (apple, hickory, or maple) for a light smoke flavor. [best practice]  
-- **Vents:**  
-  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 225–250°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]  
+- **Target temp:** 225–250°F for salmon (this is **hotter** than brisket, which is fine for a small fish).
+- **Fire:**
+  - Charcoal basket in the firebox, building a **hot charcoal bed** (not minion‑style; this is a fast, high‑heat cook).
+  - Add 1–2 small wood chunks (apple, hickory, or maple) for a light smoke flavor. [best practice]
+- **Vents:**
+  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 225–250°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]
 
-**Do’s**  
-- Let the smoker come to temp **before** you load the salmon.  
-- Use a **grate‑level thermometer** near the salmon to monitor the surface temp.  
+**Do’s**
+- Let the smoker come to temp **before** you load the salmon.
+- Use a **grate‑level thermometer** near the salmon to monitor the surface temp.
 
-**Don’ts**  
-- Don’t start the salmon too early; the smoker should be hot and stable before you load it.  
-- Don’t overcrowd the grate; salmon needs space for even air circulation.  
+**Don’ts**
+- Don’t start the salmon too early; the smoker should be hot and stable before you load it.
+- Don’t overcrowd the grate; salmon needs space for even air circulation.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **200–225°F** — slightly lower than the offset version because carryover in the insulated cabinet is more pronounced. Preheat fully with the door closed.
+
+Load **1 oz of apple or alder chunks** in the wood box. These are gentle woods; in the SM045’s low-airflow environment, even mild wood produces noticeable smoke on delicate fish. Less is more.
+
+Place the brined, dried salmon skin-side down on the middle rack. If you have a wire rack insert, use it so air circulates under the fillet. Insert the probe into the thickest part.
+
+Begin probing at **20 minutes**. Pull at **130–135°F** for medium texture or **140°F** for well-done flaky. Carryover in the SM045 adds 5–10°F after the door opens, so pulling a few degrees early is the right call.
+
+The SM045’s humid environment is excellent for salmon — moisture retention is natural, and the brine-and-cabinet combination produces consistently moist results. No basting needed during the cook.
+<!-- /equipment -->  
 
 ***
 

@@ -99,3 +99,47 @@ On a 3–5 lb piece at 250–275°F on your CC1830S:
 5. **Rest wrapped 1–2 hours**, then slice. [smokingmeatforums](https://www.smokingmeatforums.com/threads/small-brisket-flat-questions.158999/)
 
 If you tell me the exact weight of your brisket (e.g., 3.5 lb flat vs 5 lb packer) and your planned pit temp, I can give you an even tighter time‑and‑temp script for wrapping and finishing on the offset.
+
+***
+
+<!-- equipment: electric-smoker -->
+## Wrapping Brisket on the SM045
+
+The wrapping logic is the same on the SM045 — **wait for dark, tacky bark before you wrap** — but a few things work differently in the electric cabinet.
+
+### When to wrap on the SM045
+
+The SM045 runs a more humid environment than the offset, which means:
+
+- Bark development is **slower** — the surface stays wetter longer, so bark "set" happens at a slightly higher internal temp, often around **175–185°F** rather than 165–175°F on a dry offset.
+- The stall is **longer** — the humid cabinet reduces evaporative cooling less aggressively, meaning the stall period drags out. Wrapping is the right tool to push through it.
+- **Do not rush the wrap.** Opening the SM045 door frequently to check bark costs you heat and extends the cook. Use the probe to track internal temp and only open to wrap when you're confident the bark has set.
+
+### What to wrap with on the SM045
+
+**Butcher paper** remains the best choice — it breathes slightly and won't over-steam the bark. Foil works but will soften bark more noticeably in the SM045's already humid environment.
+
+### How to wrap in the SM045
+
+The technique is identical to the offset:
+
+1. Open the door quickly and have your wrap material ready before opening.
+2. Use the drag-and-fold method to wrap tightly with minimal air gaps.
+3. A small splash of beef broth (1–2 tbsp) inside the paper is optional and fine; the cabinet already provides humidity, so don't overdo the liquid.
+4. Return to the same rack position. Close the door.
+5. Door-open time should be under 2 minutes.
+
+### What changes after wrapping on the SM045
+
+- The wrapped brisket insulates itself, so the SM045's element may cycle off more frequently — this is normal.
+- Expect the brisket to go from wrap temp to **200–208°F** (pulled) or **195–203°F** (sliced) in **2–4 hours** after wrapping, similar to an offset at comparable temps.
+- Target **198–205°F probe-tender** for pulling; **195–203°F probe-tender** for slicing.
+- The SM045 probe reads cabinet air temp, not meat temp — always use a separate meat probe for pull decisions.
+
+### SM045 wrap script (3–5 lb brisket at 235–250°F)
+
+1. Smoke unwrapped until bark is dark, tacky, and set — usually around 175–185°F internal (5–7 hours on the SM045).
+2. Open quickly, wrap tight in butcher paper, return to middle rack.
+3. Cook wrapped another 2–4 hours to probe-tender target.
+4. Rest wrapped 1.5–2 hours before slicing or pulling.
+<!-- /equipment -->

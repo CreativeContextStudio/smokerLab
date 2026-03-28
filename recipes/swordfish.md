@@ -38,22 +38,34 @@ Here’s a **tight, step‑by‑step guide** for smoked swordfish on your **Roya
 
 ## 3. Set up the Royal Gourmet smoker
 
-- **Target temp:** 225–250°F for swordfish (this is **hotter** than brisket, which is fine for a small fish).  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **hot charcoal bed** (no minion‑style; this is a fast, high‑heat cook).  
-  - Add 1–2 small mild wood chunks (apple, maple, or oak) for a light smoke flavor. [best practice]  
-- **Vents:**  
-  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 225–250°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]  
+- **Target temp:** 225–250°F for swordfish (this is **hotter** than brisket, which is fine for a small fish).
+- **Fire:**
+  - Charcoal basket in the firebox, building a **hot charcoal bed** (no minion‑style; this is a fast, high‑heat cook).
+  - Add 1–2 small mild wood chunks (apple, maple, or oak) for a light smoke flavor. [best practice]
+- **Vents:**
+  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 225–250°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]
 
-**Do’s**  
-- Let the smoker come to temp **before** you load the swordfish.  
-- Use a **grate‑level thermometer** near the swordfish to monitor the surface temp.  
+**Do’s**
+- Let the smoker come to temp **before** you load the swordfish.
+- Use a **grate‑level thermometer** near the swordfish to monitor the surface temp.
 
-**Don’ts**  
-- Don’t start the swordfish too early; the smoker should be hot and stable before you load it.  
-- Don’t overcrowd the grate; swordfish steaks need space for even air circulation.  
+**Don’ts**
+- Don’t start the swordfish too early; the smoker should be hot and stable before you load it.
+- Don’t overcrowd the grate; swordfish steaks need space for even air circulation.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **200–225°F** and preheat fully. Load **1 oz of apple or maple chunks** in the wood box. Swordfish has a mild, meaty flavor that doesn’t need aggressive smoke — 1 oz is plenty.
+
+Place the steaks on the middle rack, spacing them so air flows around each piece. Insert the probe into the thickest part of one steak.
+
+Begin probing at **20 minutes**. Target **135–140°F** internal; the SM045’s insulated cabinet carries over 5–10°F after the door opens, so pulling at 135°F lands you right at the 140–145°F FDA safe range as it rests. Total cook time is **25–45 minutes** depending on steak thickness.
+
+The SM045 excels here — the humid cabinet keeps swordfish from drying out, a common offset mistake on lean fish. No basting or spritzing needed.
+<!-- /equipment -->  
 
 ***
 

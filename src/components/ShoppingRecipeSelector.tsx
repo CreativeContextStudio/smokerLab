@@ -1,8 +1,10 @@
+import { useMemo } from 'react';
 import { getAllRecipes, getAllHowTos } from '../content/loader';
+import { useEquipmentContext } from '../context/EquipmentContext';
 import { CATEGORY_ICONS } from '../types';
 
 const allRecipes = getAllRecipes().filter((r) => r.ingredients.length > 0);
-const modsHowTo = getAllHowTos().find((h) => h.slug === 'shoppingList');
+const allHowTos = getAllHowTos();
 
 interface Props {
   selectedSlugs: string[];
@@ -10,13 +12,31 @@ interface Props {
 }
 
 export default function ShoppingRecipeSelector({ selectedSlugs, onToggle }: Props) {
+  const { equipmentId, equipment } = useEquipmentContext();
+
+  const equipmentRecipes = useMemo(() => {
+    return allRecipes.filter((r) =>
+      !r.supportedEquipment || r.supportedEquipment.includes(equipmentId)
+    );
+  }, [equipmentId]);
+
+  // Find the equipment-specific shopping/mods howto
+  const modsHowTo = useMemo(() => {
+    return allHowTos.find((h) =>
+      h.shoppingItems && h.shoppingItems.length > 0 &&
+      (!h.equipmentId || h.equipmentId === equipmentId)
+    );
+  }, [equipmentId]);
+
+  const modsLabel = equipment.supportsSmoke ? 'Smoker Supplies' : 'Grill Supplies';
+
   return (
     <div className="mb-6">
       <h2 className="font-display text-lg font-semibold text-smoke-50 mb-3">
         Select recipes to build your list
       </h2>
       <div className="flex flex-wrap gap-2">
-        {/* Smoker Mods option */}
+        {/* Equipment supplies option */}
         {modsHowTo && (
           <button
             onClick={() => onToggle('__mods__')}
@@ -27,12 +47,12 @@ export default function ShoppingRecipeSelector({ selectedSlugs, onToggle }: Prop
             }`}
           >
             <span>&#128295;</span>
-            Smoker Mods
+            {modsLabel}
           </button>
         )}
 
         {/* Recipe options */}
-        {allRecipes.map((recipe) => (
+        {equipmentRecipes.map((recipe) => (
           <button
             key={recipe.slug}
             onClick={() => onToggle(recipe.slug)}

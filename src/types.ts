@@ -1,5 +1,18 @@
 export type Category = 'beef' | 'pork' | 'poultry' | 'seafood' | 'veggies' | 'condiments' | 'reference';
 
+export type EquipmentType = 'offset-smoker' | 'charcoal-grill' | 'gas-grill' | 'electric-smoker' | 'parrilla-grill';
+
+export interface EquipmentProfile {
+  id: EquipmentType;
+  name: string;
+  model: string;
+  shortName: string;
+  description: string;
+  fuelType: 'charcoal' | 'gas' | 'electric' | 'wood';
+  supportsSmoke: boolean;
+  defaultCookMethod: 'low-and-slow' | 'direct' | 'indirect' | 'set-and-forget' | 'live-fire';
+}
+
 export interface Ingredient {
   name: string;
   amount: string;
@@ -12,6 +25,14 @@ export interface IngredientGroup {
   items: Ingredient[];
 }
 
+export interface EquipmentOverride {
+  equipmentId: EquipmentType;
+  cookTemp: string;
+  cookTime: string;
+  ingredients: IngredientGroup[];
+  notes?: string;
+}
+
 export interface RecipeMeta {
   slug: string;
   title: string;
@@ -20,6 +41,8 @@ export interface RecipeMeta {
   cookTemp: string;
   cookTime: string;
   ingredients: IngredientGroup[];
+  supportedEquipment?: EquipmentType[];
+  equipmentOverrides?: EquipmentOverride[];
 }
 
 export interface HowToMeta {
@@ -27,6 +50,7 @@ export interface HowToMeta {
   title: string;
   description: string;
   shoppingItems?: IngredientGroup[];
+  equipmentId?: EquipmentType;
 }
 
 export const CATEGORY_LABELS: Record<Category, string> = {

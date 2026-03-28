@@ -119,6 +119,24 @@ A **thick, sticky, partially cooked sauce** that caramelizes on the bacon surfac
 - Don't crank the heat hoping for faster crispiness — you'll burn the sugar and render fat unevenly.
 - Don't over-smoke; keep wood chunks modest.
 
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **200–225°F** — slightly lower than the offset version. The sealed cabinet traps heat around the glazed belly, and the sugar in the glaze can scorch at higher temps if it can't dissipate.
+
+Load **1–2 oz of apple or maple chunks** in the wood box. These are mild, sweet woods that complement the candy glaze without competing with it. Load at the start; don't add more mid-cook.
+
+Place the glazed belly **fat-side up** on the middle rack with a drip pan below to catch the rendering fat and glaze drips. Insert the meat probe.
+
+Smoke **2.5–4 hours** until the glaze is deep amber to dark orange and the internal temp is 160–170°F. Press lightly through a gloved hand — it should feel firm, not soft.
+
+**No charcoal sear is possible on the SM045.** Instead, slice the belly into 1/4–1/3 inch strips after the smoke, then finish in one of these ways:
+- **Broiler:** 1–2 minutes per side under a high broiler, watching closely.
+- **Cast iron:** 1–2 minutes per side in a screaming hot dry pan.
+
+Either method sets the candy crust and adds the snappy texture the offset's charcoal sear provides. Cool on a wire rack before serving.
+<!-- /equipment -->
+
 ---
 
 ## 7. Smoke — time and checkpoints

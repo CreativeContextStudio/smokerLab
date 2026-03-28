@@ -38,22 +38,36 @@
 
 ## 3. Set up the Royal Gourmet smoker
 
-- **Target temp:** 325–375°F for lobster tails (this is **hotter** than brisket, which is fine for a small, quick cook).  
-- **Fire:**  
-  - Charcoal basket in the firebox, building a **hot charcoal bed** (no minion‑style; this is a fast, high‑heat cook).  
-  - Add 1–2 small mild wood chunks (apple, maple, or oak) for a light smoke flavor. [best practice]  
-- **Vents:**  
-  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 325–375°F. [best practice]  
-- **Pan:**  
-  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]  
+- **Target temp:** 325–375°F for lobster tails (this is **hotter** than brisket, which is fine for a small, quick cook).
+- **Fire:**
+  - Charcoal basket in the firebox, building a **hot charcoal bed** (no minion‑style; this is a fast, high‑heat cook).
+  - Add 1–2 small mild wood chunks (apple, maple, or oak) for a light smoke flavor. [best practice]
+- **Vents:**
+  - Stack **fully open**; firebox intake **1/2–3/4 open** to reach 325–375°F. [best practice]
+- **Pan:**
+  - Place a shallow water pan under the grate opposite the heat source to catch drips and keep the smoker clean. [best practice]
 
-**Do’s**  
-- Let the smoker come to temp **before** you load the lobster.  
-- Use a **grate‑level thermometer** near the lobster to monitor the surface temp.  
+**Do’s**
+- Let the smoker come to temp **before** you load the lobster.
+- Use a **grate‑level thermometer** near the lobster to monitor the surface temp.
 
-**Don’ts**  
-- Don’t start the lobster too early; the smoker should be hot and stable before you load it.  
-- Don’t overcrowd the grate; lobster tails need space for even air circulation.  
+**Don’ts**
+- Don’t start the lobster too early; the smoker should be hot and stable before you load it.
+- Don’t overcrowd the grate; lobster tails need space for even air circulation.
+
+<!-- equipment: electric-smoker -->
+## SM045 Setup
+
+Set your SM045 to **275–300°F** — its maximum practical range, which is lower than the offset’s 325–375°F. Preheat fully before loading.
+
+Load **1 oz of apple or cherry chunks** in the wood box. Lobster is extremely delicate; a light fruitwood charge is all you want in the sealed cabinet.
+
+Butterfly the tails (cut down the center of the shell, lift the meat), brush with the garlic butter, and place meat-side up on the middle rack. Close the door.
+
+Budget **15–25 minutes** — longer than the offset version because the SM045 runs at lower heat. Begin probing at 12 minutes. Target **140°F** internal; pull at **138°F** and let carryover finish it. At 145°F+ lobster becomes rubbery — this is a tight window, so watch it closely.
+
+The SM045’s humidity actually helps here, keeping the delicate meat from drying out. Finish with a quick 1–2 minute broil to brown and caramelize the butter on the exposed meat before serving.
+<!-- /equipment -->  
 
 ***
 
