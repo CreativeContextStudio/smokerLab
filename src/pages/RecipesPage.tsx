@@ -51,7 +51,6 @@ export default function RecipesPage() {
 
       {filtered.length === 0 ? (
         <MissyEmptyState
-          variant="search"
           message="No recipes match your search."
           submessage="Try a different search term or clear the filter."
         />

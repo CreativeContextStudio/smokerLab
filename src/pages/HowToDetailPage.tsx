@@ -11,8 +11,7 @@ export default function HowToDetailPage() {
   if (!meta) {
     return (
       <MissyEmptyState
-        variant="notfound"
-        message="Missy can't find that guide."
+        message="Guide not found."
         submessage="It may have gone up in smoke."
       >
         <Link to="/howto" className="inline-block mt-4 text-sm text-ember-400 hover:text-ember-300 transition-colors">

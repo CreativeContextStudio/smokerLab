@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { getAllRecipes, getAllHowTos } from '../content/loader';
 import RecipeCard from '../components/RecipeCard';
-import MissyLogo from '../components/MissyLogo';
+
 
 const allRecipes = getAllRecipes();
 const allHowTos = getAllHowTos();
@@ -18,7 +18,18 @@ export default function HomePage() {
       {/* Hero */}
       <div className="text-center py-12 md:py-16">
         <div className="mb-4">
-          <MissyLogo size={64} className="inline-block" />
+          <svg width="48" height="48" viewBox="0 0 64 64" className="inline-block">
+            <defs>
+              <linearGradient id="hero-ember" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0%" stopColor="#c2452d"/>
+                <stop offset="50%" stopColor="#d4833c"/>
+                <stop offset="100%" stopColor="#f5c542"/>
+              </linearGradient>
+            </defs>
+            <path d="M32 4c0 0-16 14-16 32s10 24 16 24 16-6 16-24S32 4 32 4z" fill="url(#hero-ember)" opacity="0.9"/>
+            <path d="M32 20c0 0-8 8-8 18s5 14 8 14 8-3 8-14-8-18-8-18z" fill="#151211" opacity="0.6"/>
+            <path d="M32 32c0 0-4 5-4 10s2 8 4 8 4-3 4-8-4-10-4-10z" fill="#f5c542" opacity="0.8"/>
+          </svg>
         </div>
         <h1 className="font-display text-3xl md:text-4xl font-bold text-smoke-50 mb-2">
           smokerLab

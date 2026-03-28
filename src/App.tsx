@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link, Outlet, useLocation, useNavigation } from 'react-router-dom';
 import { useTheme } from './hooks/useTheme';
-import MissyLogo from './components/MissyLogo';
 import MissyLoader from './components/MissyLoader';
 
 const NAV_ITEMS = [
@@ -49,7 +48,17 @@ export default function App() {
         <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group" onClick={() => setMenuOpen(false)}>
-            <MissyLogo size={22} />
+            <svg width="22" height="22" viewBox="0 0 64 64" className="inline-block">
+              <defs>
+                <linearGradient id="nav-ember" x1="0" y1="1" x2="0" y2="0">
+                  <stop offset="0%" stopColor="#c2452d"/>
+                  <stop offset="50%" stopColor="#d4833c"/>
+                  <stop offset="100%" stopColor="#f5c542"/>
+                </linearGradient>
+              </defs>
+              <path d="M32 4c0 0-16 14-16 32s10 24 16 24 16-6 16-24S32 4 32 4z" fill="url(#nav-ember)" opacity="0.9"/>
+              <path d="M32 32c0 0-4 5-4 10s2 8 4 8 4-3 4-8-4-10-4-10z" fill="#f5c542" opacity="0.8"/>
+            </svg>
             <span className="font-display text-lg font-bold text-smoke-50 tracking-tight group-hover:text-ember-400 transition-colors">
               smokerLab
             </span>

@@ -3,17 +3,17 @@ import type { RecipeMeta, HowToMeta } from '../types';
 
 // Load all markdown/text files at build time
 const recipeModulesMd = import.meta.glob(
-  '../../../recipes/*.md',
+  '../../recipes/*.md',
   { query: '?raw', import: 'default', eager: true }
 ) as Record<string, string>;
 
 const recipeModulesTxt = import.meta.glob(
-  '../../../recipes/*.txt',
+  '../../recipes/*.txt',
   { query: '?raw', import: 'default', eager: true }
 ) as Record<string, string>;
 
 const howtoModules = import.meta.glob(
-  '../../../howto/*.md',
+  '../../howto/*.md',
   { query: '?raw', import: 'default', eager: true }
 ) as Record<string, string>;
 

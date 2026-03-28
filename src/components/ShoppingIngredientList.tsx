@@ -83,7 +83,6 @@ export default function ShoppingIngredientList({ selectedSlugs, checkedItems, on
   if (selectedSlugs.length === 0) {
     return (
       <MissyEmptyState
-        variant="empty"
         message="Nothing on the list yet."
         submessage="Pick some recipes above to get started."
       />

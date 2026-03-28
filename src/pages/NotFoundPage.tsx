@@ -4,8 +4,7 @@ import MissyEmptyState from '../components/MissyEmptyState';
 export default function NotFoundPage() {
   return (
     <MissyEmptyState
-      variant="notfound"
-      message="Missy can't find that page."
+      message="Page not found."
       submessage="It may have gone up in smoke."
     >
       <Link

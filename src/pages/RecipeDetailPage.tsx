@@ -12,8 +12,7 @@ export default function RecipeDetailPage() {
   if (!meta) {
     return (
       <MissyEmptyState
-        variant="notfound"
-        message="Missy can't find that recipe."
+        message="Recipe not found."
         submessage="It may have gone up in smoke."
       >
         <Link to="/recipes" className="inline-block mt-4 text-sm text-ember-400 hover:text-ember-300 transition-colors">
