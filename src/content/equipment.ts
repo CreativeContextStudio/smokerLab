@@ -46,7 +46,7 @@ export const equipment: EquipmentProfile[] = [
     name: 'Parrilla Grill',
     model: 'Asado a la Parrilla',
     shortName: 'Parrilla',
-    description: 'Argentine-style live-fire grilling over hardwood coals. Adjustable grate height controls heat for everything from quick sears to slow roasts.',
+    description: 'Uruguayan-style live-fire grilling over hardwood coals. Adjustable grate height controls heat for everything from quick sears to slow roasts.',
     fuelType: 'wood',
     supportsSmoke: true,
     defaultCookMethod: 'live-fire',
