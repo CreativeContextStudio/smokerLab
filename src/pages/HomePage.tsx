@@ -51,6 +51,15 @@ export default function HomePage() {
 
         <div className="flex flex-wrap justify-center gap-3">
           <Link
+            to="/equipment"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-smoke-700 hover:bg-smoke-600 text-smoke-100 rounded-lg font-semibold text-sm transition-colors border border-smoke-600"
+          >
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+            </svg>
+            Equipment
+          </Link>
+          <Link
             to="/recipes"
             className="inline-flex items-center gap-2 px-5 py-2.5 bg-ember-600 hover:bg-ember-500 text-smoke-950 rounded-lg font-semibold text-sm transition-colors shadow-[0_0_20px_rgba(212,131,60,0.15)]"
           >

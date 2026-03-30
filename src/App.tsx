@@ -89,8 +89,9 @@ export default function App() {
             </span>
           </nav>
 
-          {/* Mobile: theme toggle + hamburger */}
+          {/* Mobile: equipment selector + theme toggle + hamburger */}
           <div className="flex items-center gap-1 md:hidden">
+            <EquipmentSelector />
             <ThemeToggle theme={theme} onToggle={toggleTheme} size={18} />
             <button
               className="p-2 text-smoke-300 hover:text-smoke-100"
@@ -111,9 +112,6 @@ export default function App() {
         {/* Mobile menu dropdown */}
         {menuOpen && (
           <nav className="md:hidden border-t border-smoke-700 bg-smoke-950/98 pb-3">
-            <div className="px-4 py-3 border-b border-smoke-700">
-              <EquipmentSelector />
-            </div>
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.path}
